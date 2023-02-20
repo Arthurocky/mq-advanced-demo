@@ -10,3 +10,9 @@ spring:
     username: itcast
     password: 123321
     virtual-host: /
+    # 消息是否到达交换机
+    publisher-confirm-type: correlated
+    # 消息到了交换机后，是否到达队列
+    publisher-returns: true
+    template:
+      mandatory: true
