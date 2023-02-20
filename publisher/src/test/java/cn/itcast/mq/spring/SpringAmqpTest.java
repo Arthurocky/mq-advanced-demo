@@ -61,4 +61,14 @@ public class SpringAmqpTest {
             e.printStackTrace();
         }
     }
+
+    //设置队列不存在
+    @Test
+    public void testSendMessagePublishReturn() throws InterruptedException {
+        String queueName = "abc";
+        // 如果没有指定交换机，则使用默认交换机, amq.direct
+        // amq.direct默认交换机的特点：队列名就是bindingKey
+        rabbitTemplate.convertAndSend(queueName, "hello");
+        Thread.sleep(10000);
+    }
 }

@@ -1,0 +1,18 @@
+package cn.itcast.mq.config;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class CommonUntil {
+    private static ApplicationContext ioc;
+
+    public static <T>T getBean(Class<T> clsName){
+        return ioc.getBean(clsName);
+    }
+
+
+    public void test(){
+        ApplicationContext ioc = CommonUntil.ioc;
+    }
+}
