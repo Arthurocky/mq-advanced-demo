@@ -39,7 +39,6 @@ public class CommonConfig implements ApplicationContextAware {
                     replyCode, replyText, exchange, routingKey, message.toString());
             }
         });
-
     }
 
 }
