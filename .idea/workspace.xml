@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e95de87a-d739-41e1-bb06-272ef8dd3286" name="Changes" comment="Test Error Queue" />
+    <list default="true" id="e95de87a-d739-41e1-bb06-272ef8dd3286" name="Changes" comment="Test Error Queue">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commonUntil" beforeDir="false" afterPath="$PROJECT_DIR$/commonUntil" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +70,7 @@
       <recent name="cn.itcast.mq.config" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringAmqpTest.testSendMessagePublishReturn">
+  <component name="RunManager" selected="Spring Boot.PublisherApplication">
     <configuration name="SpringAmqpTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="publisher" />
       <extension name="coverage">
@@ -141,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringAmqpTest.testSendMessagePublishReturn" />
         <item itemvalue="Spring Boot.PublisherApplication" />
+        <item itemvalue="JUnit.SpringAmqpTest.testSendMessagePublishReturn" />
         <item itemvalue="JUnit.SpringAmqpTest" />
         <item itemvalue="JUnit.SpringAmqpTest.testSendMessage2SimpleQueue" />
       </list>
@@ -157,7 +160,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676898108773</updated>
       <workItem from="1676898110288" duration="4141000" />
-      <workItem from="1676904036102" duration="4794000" />
+      <workItem from="1676904036102" duration="4899000" />
     </task>
     <task id="LOCAL-00001" summary="Test Exchange Absence">
       <created>1676902692639</created>
