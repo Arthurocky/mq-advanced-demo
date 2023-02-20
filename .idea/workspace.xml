@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e95de87a-d739-41e1-bb06-272ef8dd3286" name="Changes" comment="Test Exchange Absence" />
+    <list default="true" id="e95de87a-d739-41e1-bb06-272ef8dd3286" name="Changes" comment="Test Error Queue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -157,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676898108773</updated>
       <workItem from="1676898110288" duration="4141000" />
-      <workItem from="1676904036102" duration="4486000" />
+      <workItem from="1676904036102" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="Test Exchange Absence">
       <created>1676902692639</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676902692639</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test Error Queue">
+      <created>1676908773285</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676908773285</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Test Exchange Absence" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test Exchange Absence" />
+    <MESSAGE value="Test Error Queue" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Error Queue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
