@@ -25,4 +25,3 @@ public class ManuallyAckListener {
             channel.basicNack(message.getMessageProperties().getDeliveryTag(), false, true);
         }
     }
-}
