@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e95de87a-d739-41e1-bb06-272ef8dd3286" name="Changes" comment="Test Error Queue">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commonUntil" beforeDir="false" afterPath="$PROJECT_DIR$/commonUntil" afterDir="false" />
-    </list>
+    <list default="true" id="e95de87a-d739-41e1-bb06-272ef8dd3286" name="Changes" comment="Test Error Queue" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676898108773</updated>
       <workItem from="1676898110288" duration="4141000" />
-      <workItem from="1676904036102" duration="4899000" />
+      <workItem from="1676904036102" duration="5138000" />
     </task>
     <task id="LOCAL-00001" summary="Test Exchange Absence">
       <created>1676902692639</created>
