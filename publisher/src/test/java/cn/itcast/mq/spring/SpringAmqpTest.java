@@ -3,6 +3,9 @@ package cn.itcast.mq.spring;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.core.MessageBuilder;
+import org.springframework.amqp.core.MessageDeliveryMode;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -62,7 +65,9 @@ public class SpringAmqpTest {
         }
     }
 
-    //设置队列不存在
+    /**
+    *设置队列不存在
+     */
     @Test
     public void testSendMessagePublishReturn() throws InterruptedException {
         String queueName = "abc";
@@ -71,4 +76,17 @@ public class SpringAmqpTest {
         rabbitTemplate.convertAndSend(queueName, "hello");
         Thread.sleep(10000);
     }
+
+
+    @Test
+    public void testSendTransientMessage() throws InterruptedException {
+        Message message = MessageBuilder.withBody("Hello".getBytes())
+                // NON_PERSISTENT: 非持久 临时消息
+                .setDeliveryMode(MessageDeliveryMode.NON_PERSISTENT)
+                .build();
+        rabbitTemplate.convertAndSend("simple.queue", message);
+
+    }
+
+
 }
