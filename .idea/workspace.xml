@@ -123,6 +123,8 @@
         <item itemvalue="Spring Boot.PublisherApplication" />
         <item itemvalue="Spring Boot.ConsumerApplication" />
         <item itemvalue="JUnit.SpringAmqpTest.testSendTransientMessage" />
+        <item itemvalue="Spring Boot.PublisherApplication" />
+        <item itemvalue="Spring Boot.ConsumerApplication" />
       </list>
     </recent_temporary>
   </component>

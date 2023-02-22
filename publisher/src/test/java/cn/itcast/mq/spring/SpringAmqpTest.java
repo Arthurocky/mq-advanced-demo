@@ -87,6 +87,9 @@ public class SpringAmqpTest {
         rabbitTemplate.convertAndSend("simple.queue", message);
     }
 
+    /**
+     * Time_To_Live
+     */
     @Test
     public void testSendTTLMessage() throws InterruptedException {
         Message message = MessageBuilder.withBody("This is TTL".getBytes())
