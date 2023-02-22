@@ -41,4 +41,14 @@ public class CommonConfig implements ApplicationContextAware {
         });
     }
 
+    @Bean
+    public Queue lazyQueue(){
+        return QueueBuilder.durable("lazy.queue").lazy().build();
+    }
+
+    @Bean
+    public Queue normalQueue(){
+        return QueueBuilder.durable("normal.queue").build();
+    }
+
 }
