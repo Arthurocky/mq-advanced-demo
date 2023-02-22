@@ -99,7 +99,14 @@ public class SpringAmqpTest {
         String exchange = "ttl.direct";
         String routingKey = "ttl";
         rabbitTemplate.convertAndSend(exchange, routingKey, message);
+    }
 
+    @Test
+    public void testSendDelayMsg(){
+        Message msg = MessageBuilder.withBody("This is a delay msg!".getBytes())
+                .setHeader("x-delay", 5000)// 延迟5秒
+                .build();
+        rabbitTemplate.convertAndSend("delay.direct", "delay", msg);
     }
 
 }

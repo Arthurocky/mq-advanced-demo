@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="784f47d8-7c67-4f73-8109-da542626b9ba" name="Changes" comment="✨ Time_to_live Config Until">
+      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/config/DelayExchangeConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/config/TTLConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/config/TTLConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/publisher/src/test/java/cn/itcast/mq/spring/SpringAmqpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/publisher/src/test/java/cn/itcast/mq/spring/SpringAmqpTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +180,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677033610011</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="✨ Time_to_live Config Until">
+      <created>1677035796577</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677035796577</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
