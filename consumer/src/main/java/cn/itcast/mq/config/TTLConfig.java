@@ -17,6 +17,7 @@ public class TTLConfig {
     @RabbitListener(bindings = @QueueBinding(
         value = @Queue("dl.queue"),
         exchange = @Exchange(name = "dl.direct", type = ExchangeTypes.DIRECT),
+
         key = "dl"
     ))
     public void consumeMsg(String msg){

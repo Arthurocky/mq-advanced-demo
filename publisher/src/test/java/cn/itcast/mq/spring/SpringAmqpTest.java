@@ -85,8 +85,18 @@ public class SpringAmqpTest {
                 .setDeliveryMode(MessageDeliveryMode.NON_PERSISTENT)
                 .build();
         rabbitTemplate.convertAndSend("simple.queue", message);
-
     }
 
+    @Test
+    public void testSendTTLMessage() throws InterruptedException {
+        Message message = MessageBuilder.withBody("This is TTL".getBytes())
+                // 消息有效时长 5s
+                .setExpiration("12000")
+                .build();
+        String exchange = "ttl.direct";
+        String routingKey = "ttl";
+        rabbitTemplate.convertAndSend(exchange, routingKey, message);
+
+    }
 
 }

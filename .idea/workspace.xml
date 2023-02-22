@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="784f47d8-7c67-4f73-8109-da542626b9ba" name="Changes" comment="✨ DeadLetterConfig Until">
-      <change afterPath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/config/TTLConfig.java" afterDir="false" />
+    <list default="true" id="784f47d8-7c67-4f73-8109-da542626b9ba" name="Changes" comment="✨ Time_to_live Config Until">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/listener/DeadLetterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/config/DeadLetterConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/config/TTLConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/consumer/src/main/java/cn/itcast/mq/config/TTLConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="3.0DeadLetter" />
+        <entry key="$PROJECT_DIR$" value="3.1Time_To_Live" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -45,12 +44,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="club.gclmit.gitmoji.desc-i18n" value="zh_cn" />
     <property name="club.gclmit.gitmoji.display-icon" value="icon" />
     <property name="club.gclmit.gitmoji.text-after-unicode" value=" " />
@@ -146,7 +147,7 @@
       <workItem from="1676993849200" duration="191000" />
       <workItem from="1676994109134" duration="167000" />
       <workItem from="1676994357378" duration="521000" />
-      <workItem from="1677030391704" duration="2904000" />
+      <workItem from="1677030391704" duration="4060000" />
     </task>
     <task id="LOCAL-00002" summary="🥚">
       <created>1676984273086</created>
@@ -162,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677030621605</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="✨ Time_to_live Config Until">
+      <created>1677033536864</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677033536864</updated>
+    </task>
+    <task id="LOCAL-00005" summary="✨ Time_to_live Config Until">
+      <created>1677033610011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677033610011</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +199,8 @@
     <MESSAGE value="Test Retry after failure" />
     <MESSAGE value="" />
     <MESSAGE value="✨ DeadLetterConfig Until" />
-    <option name="LAST_COMMIT_MESSAGE" value="✨ DeadLetterConfig Until" />
+    <MESSAGE value="✨ Time_to_live Config Until" />
+    <option name="LAST_COMMIT_MESSAGE" value="✨ Time_to_live Config Until" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
